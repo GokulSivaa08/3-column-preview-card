@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+.container {
+    border: 1px solid #F2F2F2;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F2F2F2;
+}
+.left, .mid, .right {
+    padding: 3rem;
+    height: 55%;
+    color: rgba(255, 255, 255, 0.75);
+}
+.left {
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    border: 1px solid orange;
+    margin-left: 15rem;
+    background-color: orange;
+}
+.right {
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border: 1px solid #004140;
+    margin-right: 15rem;
+    background-color: #004140;
+}
+.mid {
+    border: 1px solid rgb(24, 126, 128);
+    background-color: rgb(24, 126, 128);
+}
+.left-head, .mid-head, .right-head {
+    margin-top: 2rem;
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-size: xx-large;
+}
+.left-body, .mid-body, .right-body {
+    padding-top: 8px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: small;
+    width: 60%;
+    line-height: 25px;
+}
+.btn {
+    margin-top: 6rem;
+}
+
+.btn a {
+    text-decoration: none;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 22px;
+    font-size: 15px;
+    background-color: #F2F2F2;
+    padding: 10px 28px;
+}
+.left .btn a {
+    color: orange;
+}
+.right .btn a {
+    color: #004140;
+}
+.mid .btn a {
+    color: rgb(24, 126, 128);
+}
+.left .right .mid .btn a:hover {
+    background-color: transparent;
+    color: #fff;
+}
